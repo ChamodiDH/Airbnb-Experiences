@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.navBar{
+  display:flex;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+#main-title {
+  font-family: 'Happy Monkey', cursive;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF5A5F;
+  padding: 5px;
+}
+
+.logo{
+  width:40px;
+  margin-top: 0px;
+  margin-left:30px;
+  
+}
+
+#cover-img{
+  margin-top: 26px;
+  width: 800px;
+  margin-left: 120px;
+  margin-right: auto;
+  display: block;
+}
+
+#hero-title{
+  margin-left: 50px;
+  font-family:'Poppins';
+  font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 110%;
+padding:10px;
+margin-bottom: 0px;
+}
+
+.desc{
+  max-width: 350px;
+  margin-left: 50px;
+  padding: 10px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 110%;
+}
+
+section {
+  padding: 20px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  margin-left: 50px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 110%;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
