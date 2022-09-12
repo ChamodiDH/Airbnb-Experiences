@@ -10,7 +10,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <div> 
     <NavBar />
     <Hero/>
-    <Card/>
+    <Card
+    
+    im = "katie-zaferes.png"
+    rating = "5.0"
+    reviewCount = {6}
+    country = "Ireland"
+    title = "Life Lessons with Katie Zaferes"
+    price = {136}
+    
+    />
   </div>
    
 
